@@ -463,7 +463,7 @@ def declare_interbotix_xslocobot_robot_description_launch_arguments(
             choices=(
                 'actual',
                 'fake',
-                'gz_classic',
+                'gz_sim',
             ),
             default_value=hardware_type,
             description=(

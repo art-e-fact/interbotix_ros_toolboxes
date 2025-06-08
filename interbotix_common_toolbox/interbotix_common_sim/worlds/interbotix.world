@@ -3,16 +3,22 @@
   <world name="default">
     <!-- A global light source -->
     <include>
-      <uri>model://sun</uri>
+      <uri>
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane
+      </uri>
     </include>
     <!-- A ground plane -->
     <include>
-      <uri>model://ground_plane</uri>
+      <uri>
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun
+      </uri>
     </include>
+
+    <!-- bach-todo: migrate this model -->
     <!-- Trossen Robotics Offices -->
-    <include>
+    <!-- <include>
       <uri>model://TrossenRoboticsOfficeBuilding</uri>
       <pose>0 2 0 0 0 0</pose>
-    </include>
+    </include> -->
   </world>
 </sdf>
