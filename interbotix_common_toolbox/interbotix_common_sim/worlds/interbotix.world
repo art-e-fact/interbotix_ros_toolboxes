@@ -14,11 +14,10 @@
       </uri>
     </include>
 
-    <!-- bach-todo: migrate this model -->
     <!-- Trossen Robotics Offices -->
-    <!-- <include>
+    <include>
       <uri>model://TrossenRoboticsOfficeBuilding</uri>
       <pose>0 2 0 0 0 0</pose>
-    </include> -->
+    </include>
   </world>
 </sdf>
