@@ -27,15 +27,15 @@
     <!-- A global light source -->
     <include>
       <uri>
-        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun
       </uri>
     </include>
     <!-- A ground plane -->
     <include>
       <uri>
-        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane
       </uri>
-    </include>
+    </include>    
 
     <!-- Trossen Robotics Offices -->
     <include>
