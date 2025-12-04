@@ -463,7 +463,7 @@ def declare_interbotix_xslocobot_robot_description_launch_arguments(
             choices=(
                 'actual',
                 'fake',
-                'gz_classic',
+                'gz_sim',
             ),
             default_value=hardware_type,
             description=(
@@ -556,7 +556,7 @@ def determine_use_sim_time_param(
     :param hardware_type: The `hardware_type` LaunchConfiguration
     :return: True if hardware is simulated, the `use_sim_time` LaunchConfiguration otherwise
     """
-    if hardware_type_launch_arg.perform(context) in ('gz_classic'):
+    if hardware_type_launch_arg.perform(context) in ('gz_sim'):
         return TextSubstitution(text='true')
     else:
         return LaunchConfiguration('use_sim_time')
